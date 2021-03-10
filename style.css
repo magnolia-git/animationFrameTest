@@ -1,0 +1,10 @@
+.anim {
+  background-image: url('anm_rat_goal.91620a5a.png');
+  width: 262px;
+  height: 209px;
+  animation: anim steps(11) 1;
+}
+@keyframes anim {
+  from { background-position: top; }
+  to { background-position: bottom; }
+}
